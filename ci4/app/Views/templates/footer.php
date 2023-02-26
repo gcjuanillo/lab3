@@ -1,3 +1,3 @@
-<em>&copy; 2023</em>
+<em>&copy; Class of Webprog 2023</em>
 </body>
 </html>
