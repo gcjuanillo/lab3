@@ -1,0 +1,127 @@
+body {
+    background-image: url(Pictures/loginBG.jpg);
+    background-size: cover;
+}
+
+.loginCard {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(224, 224, 224, 0.671);
+    padding: 20px;
+    border: 4px solid #404783;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 110px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.loginButton {
+    padding: 12px 30px;
+    background-color: rgb(201, 108, 238);
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.loginButton:hover {
+    background-color: rgba(201, 30, 201, 0.6);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.labels {
+    font-size: 21px;
+}
+
+.credentials{
+    padding: 10px;
+}
+
+.credentials input {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-style: hidden;
+    font-size: 18px;
+}
+
+.reglabels {
+    font-size: 18px;
+}
+
+.registerCredentials{
+    padding: 30px;
+}
+
+.registerCredentials input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-style: hidden;
+    font-size: 18px;
+}
+
+.signUp {
+    font-size: 18px;
+}
+
+.register {
+    text-decoration: none;
+    color:white;
+}
+
+.register:hover {
+    color:rgba(201, 30, 201, 0.6);
+}
+
+.fill {
+    font-family: sans-serif;    
+    font-size: 21px;
+    color:red;
+    display: inline;
+}
