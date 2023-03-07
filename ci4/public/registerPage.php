@@ -43,7 +43,7 @@
 
     <div class="loginCard">
         <div class="header">
-            <a href="loginTemplate.html"><img class="logo" src="Pictures/Juanillo.png" alt="Portfolio Logo" title="Home - Juanillo" height="120"></a>
+            <a href="index.html"><img class="logo" src="Pictures/Juanillo.png" alt="Portfolio Logo" title="Home - Juanillo" height="120"></a>
             <h2 class="text-center">Register</h2>
             <p class="text-center">Be a part of the community by registering below!</p>
             <form class="registerCredentials" id="loginCredential" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
